@@ -76,7 +76,7 @@ const LandingPage = () => {
   };
 
   return (
-    <div>
+    <div  className='px-4 py-20'>
       <main>
         <div name='map'>
           <div
