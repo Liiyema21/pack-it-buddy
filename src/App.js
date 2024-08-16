@@ -11,6 +11,7 @@ import FAQ from './Pages/FAQ';
 import HomePage from './Forms/HomePage';
 import Forwarderform from './Forms/Forwarderform';
 import ReviewConfirm from './Components/ReviewConfirm';
+import GetQuote from './Pages/GetQuote';
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
         <Route path='/ReferralsnReviews' element={<ReferralsnReviews />} />
         <Route path='/Forwarderform' element={<Forwarderform />} />
         <Route path='/ReviewConfirm' element={<ReviewConfirm />} />
+        <Route path='/LandingPage' element={<LandingPage/>} />
+        <Route path='/GetQuote' element={<GetQuote/>} />
       </Routes>
 
         </main>

@@ -6,6 +6,7 @@ import ReferralsnReviews from '../Pages/ReferralsnReviews'
 import Forwarderform from '../Forms/Forwarderform'
 import Support from '../Pages/Support';
 import DealsAndDiacounts from '../Pages/DealsAndDiacounts';
+import LandingPage from '../Pages/LandingPage'
 
 
 const NavBar = () => {
@@ -14,10 +15,14 @@ const NavBar = () => {
   return (
     <nav className="flex justify-between items-center w-full h-20
     px-4 text-white bg-[#131a4b] fixed">
-                <div> 
-          <img src={PackitByddyLogo} alt="Our Logo" 
-          className="active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] text-3xl mb-12"/>
-          </div>
+        <Link to='/LandingPage'>
+
+        <div> 
+            <img src={PackitByddyLogo} alt="Our Logo" 
+            className="active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] text-3xl mb-12"/>
+            </div>
+         </Link>
+
         <ul className="hidden md:flex">
         <div 
         className="">

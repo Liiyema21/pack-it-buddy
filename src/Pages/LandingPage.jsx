@@ -1,4 +1,7 @@
 import React, { useEffect } from 'react';
+import GetQuote from './GetQuote';
+import { Link } from 'react-router-dom';
+
 
 const LandingPage = () => {
   let map, directionsService, directionsRenderer;
@@ -116,8 +119,10 @@ const LandingPage = () => {
             </div>
 
             <div>
+              
               <button className="w-full border-2 border-gray-100 rounded-xl p-4 mt-1 bg-amber-400">
-                <a href="Form.jsx">Get Quote</a>
+                
+                <a href="GetQuote">Get Quote</a>
               </button>
             </div>
           </div>
